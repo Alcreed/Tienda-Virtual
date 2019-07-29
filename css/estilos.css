@@ -5,3 +5,13 @@ html{
 *, *:before, *:after{
     box-sizing: inherit;
 }
+
+/* Globales */
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+img{
+    max-width: 100%;
+}
