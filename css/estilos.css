@@ -16,11 +16,29 @@ img{
     max-width: 100%;
 }
 body{
-    background-color: blueviolet;
+    background-color: palevioletred;
 }
 
 /* Header */
 .site-header{
     text-align: center;
     padding: 4rem 0;
+}
+
+/* Productos */
+.productos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.titulo{
+    color: #ffffff;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.producto{
+    flex: 0 0 calc(33.3% - 1rem);
+}
+.producto img{
+    border: 1rem solid blueviolet;
 }
